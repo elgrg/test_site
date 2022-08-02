@@ -2,37 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+  background-color: rgba(72, 73, 129 , .6);  /*rgba puts opacity at the rgb background color .6==60% opacity */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-image: url('https://www.registrarcorp.com/wp-content/uploads/2021/04/cargo-ship.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .showlist{
+  margin-top: 10px;
+}
+
+.App .showjsoninfo{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .codes{
+  width: 30%;
+  /*position: relative;
+  left: 525px;*/
+  margin: auto;
+  font-size:23px;
+  color: white;
+  font-family: Arial;
+  border: 9px solid violet;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
 }

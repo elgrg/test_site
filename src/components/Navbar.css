@@ -1,0 +1,8 @@
+.Navbar{
+    font-family: "Quicksand" ;
+    display: flex;
+}
+
+.Navbar .links{
+    margin-left: auto;
+}
