@@ -67,6 +67,9 @@ function App() {
             <Route exact path="/">   {/*when the route ends in ".../" we show the inside of the route component*/}
               <Navbar />
             </Route>
+            <Route exact path="/test_site">   
+              <Navbar />
+            </Route>
             <Route path="/create">   {/*when the route ends in ".../create" we show the inside of the route component*/}
               <Navbar />
               <b>What is the name of the new file?</b>
@@ -89,7 +92,7 @@ function App() {
         </div>
         <div className="body">
           <h1>
-            hello there
+            hello there people!!
           </h1>
           <p>Click times: {number}</p>
           <button onClick={handleClick}>Click me</button>
